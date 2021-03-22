@@ -1,0 +1,74 @@
+body {
+    font-family: 'Work Sans', sans-serif !important;
+    background-color: green;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700 !important;
+}
+
+.solbutton {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid black ; 
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.solbutton:hover {
+    background-color: #fff447 !important;
+    color: black;
+}
+
+.solbutton:active {
+    border-bottom: 1px solid black;
+    margin-top: 8px;
+    color: black;
+}
+
+.white {
+    background-color: white !important;;
+    color: black;
+}
+
+.red {
+    background-color: #ff4747 !important;;
+    color: white;
+}
+
+.green {
+    background-color: #65e15c !important;;
+    color: black;
+}
+
+.yellow {
+    background-color: #fff447 !important;;
+    color: black;
+}
+
+.blue {
+    background-color: #476eff !important;;
+    color: white;
+}
+
+.purple {
+    background-color: #835bde !important;;
+    color: white;
+}
+
+.orange {
+    background-color: #ff9547 !important;
+    color: white;
+}
+
+.card {
+    border: 0 !important;
+}
