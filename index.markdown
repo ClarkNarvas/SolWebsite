@@ -5,4 +5,5 @@
 layout: solhome
 widehomebanner-title: Trans Rights, Safeguarding, Accountability.
 widehomebanner-description: You can count on Sol. Join our campaign
+thumbnail: /assets/thumbnails/homepage.png
 ---

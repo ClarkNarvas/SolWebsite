@@ -12,6 +12,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Sol </title>
+    <title>Sol for YLNC</title>
+
+    
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+<meta property="og:description" content="{{ page.description }}"/>
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:image" content="{% if page.thumbnail %}https://solforylnc.com{{ page.thumbnail }}{% else %}https://solforylnc.com/assets/thumbnails/default.png{% endif %}"/>
+<meta property="og:image:width" content="1920"/>
+<meta property="og:image:height" content="1080"/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SolCuthbertson">
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="{% if page.featured-image %}https://solforylnc.com{{ page.featured-image }}{% else %}https://solforylnc.com/assets/thumbnails/default.png{% endif %}">
+
   </head>
   <body>
