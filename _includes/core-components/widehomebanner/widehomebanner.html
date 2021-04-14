@@ -1,7 +1,6 @@
 <div class="container-fluid {{include.color}}" style="min-height: 450px;margin: 0;padding: 0.2;overflow: hidden;">
         <div class="row">
-                <div class="col-lg-6 fill" style="height: {{include.height}};">
-                    <img src="{{include.widehomebanner-img}}" class="fillimg" style="height: auto; width: 110%;">
+                <div class="col-lg-6 backgroundimg" style="height: {{include.height}};background-image: url({{include.widehomebanner-img}})">
                 </div>
 
                 <div class="col-lg-6" >
@@ -94,5 +93,10 @@
     margin: 5px;
     width: 300px;
     font-size: 110%;
+}
+
+.backgroundimg {
+    background-size: cover;
+    background-position: center;
 }
 </style>

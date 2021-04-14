@@ -1,8 +1,15 @@
 
 {% include core-components/baseline.html %}
-{% include core-components/headers/solheader.html %}
-<div class="container">
+{% include core-components/headers/solheader-menu.html %}
+<div class="pageheader red">
+    <div class="pageheader-content">
 <h1 style="text-align: center;">{{ page.title }}</h1>
+    </div>
+</div>
+<div class="container">
 <p style="font-size: 250%;">{{content}}</p>
 </div>
+
+{% include core-components/widehomebanner/widehomebanner.html color="red" height="450px" widehomebanner-title="Change starts with you. Join our campaign" widehomebanner-description=""  widehomebanner-img="/assets/images/stock/lgbtflagsloads.jpg" %}
+{% include core-components/footers/blankfooter.html %}
 {% include core-components/baseline-bottom.html %}

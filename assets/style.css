@@ -72,3 +72,15 @@ h1, h2, h3, h4, h5, h6 {
 .card {
     border: 0 !important;
 }
+
+.pageheader {
+    height: 500px; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.pageheader-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
